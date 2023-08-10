@@ -228,8 +228,8 @@ public class honeygaincase125_Exit extends AppCompatActivity {
 
    public void showfbNativeBanner() {
 
-        if (honeygaincase125_SplashActivity.nativeBannerAd.isAdLoaded()) {
-            
+          if (honeygaincase125_SplashActivity.nativeBannerAd != null && honeygaincase125_SplashActivity.nativeBannerAd.isAdLoaded()) {
+
             View adView = NativeBannerAdView.render(this, honeygaincase125_SplashActivity.nativeBannerAd, NativeBannerAdView.Type.HEIGHT_100);
             nativeBannerContainer = (FrameLayout) findViewById(R.id.fl_b);
             // Add the Native Banner Ad View to your ad container

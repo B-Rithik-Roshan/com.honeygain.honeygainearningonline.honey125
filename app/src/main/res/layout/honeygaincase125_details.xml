@@ -7,10 +7,25 @@
     android:orientation="vertical"
     android:background="@drawable/honeygaincase125_bggg"
     tools:context=".honeygaincase125_DetailsActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fl_adplaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+    </FrameLayout>
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3">
+
+
+
 
         <ScrollView
             android:layout_width="match_parent"
@@ -21,14 +36,7 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:layout_margin="10dp">
-                <FrameLayout
-                    android:id="@+id/fl_adplaceholder"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:visibility="visible">
 
-                </FrameLayout>
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

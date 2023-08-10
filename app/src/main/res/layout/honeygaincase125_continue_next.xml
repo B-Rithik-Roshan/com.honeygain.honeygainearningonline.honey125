@@ -8,6 +8,17 @@
     android:weightSum="2">
 
 
+    <FrameLayout
+        android:id="@+id/fl_adplaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+    </FrameLayout>
+
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -19,15 +30,7 @@
             android:orientation="vertical">
 
 
-            <FrameLayout
-                android:id="@+id/fl_adplaceholder"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:visibility="visible">
 
-
-            </FrameLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
