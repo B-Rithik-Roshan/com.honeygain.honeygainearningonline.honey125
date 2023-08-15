@@ -3,7 +3,6 @@
     <string name="app_name">Honey Gain</string>
 
 
-
     <string name="text1">Honeygain is a platform that allows individuals to earn passive income by sharing their unused internet bandwidth with the Honeygain network. The concept behind Honeygain is to create a decentralized network that utilizes the excess internet data of its users for various purposes such as web scraping, market research, content delivery, and more.\n\n
 
     Heres how Honeygain works:\n\n
@@ -133,7 +132,6 @@ Before installing Honeygain, make sure to check their official website or the re
 
 If you have tried the above troubleshooting steps and the "Unusable Network" error persists, you may want to reach out to Honeygains support team for further assistance. They can provide specific guidance and help resolve any issues related to your network or configuration.\n\n
 </string>
-
 
 
 </resources>
