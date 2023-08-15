@@ -32,14 +32,5 @@
 
     </style>
 
-    <style name="Theme.honeygain.Lottie3">
-
-        <item name="lottie_autoPlay">true</item>
-        <item name="lottie_loop">true</item>
-        <item name="lottie_rawRes">@raw/z1</item>
-
-
-    </style>
-
 
 </resources>
